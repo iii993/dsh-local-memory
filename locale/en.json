@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "File-based Memory",
+    "description": "Long-term memory as plain Markdown files in a real folder tree: one topic per file, an auto-maintained INDEX.md per directory, and search that returns file paths only."
+  }
+}

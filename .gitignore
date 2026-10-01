@@ -1,0 +1,8 @@
+node_modules/
+.test-tmp/
+*.log
+*.tsbuildinfo
+.DS_Store
+
+# 一次性重构脚本(按锚点切分源码), 不属于插件
+.refactor/

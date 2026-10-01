@@ -1,0 +1,14 @@
+# Mount the file-based long-term memory tools into a DSH profile.
+#
+# Optional per-profile config (any of these may be omitted):
+#
+#   - insert:
+#       - id: tool-memory
+#         name: '@dsh-external/tool-memory'
+#         config:
+#           memoryRoot: 'D:\my-memory'
+#
+# memoryRoot resolution order: $DSH_MEMORY_DIR > config.memoryRoot > $DSH_HOME/memory.
+- insert:
+    - id: tool-memory
+      name: '@dsh-external/tool-memory'
